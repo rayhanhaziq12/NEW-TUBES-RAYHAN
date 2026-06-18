@@ -43,8 +43,8 @@ with col1:
         options=[1, 2],
         format_func=lambda x: "Perempuan" if x == 1 else "Laki-laki"
     )
-    height = st.number_input("📏 Tinggi Badan (cm)", min_value=100, max_value=220, value=165)
-    weight = st.number_input("⚖️ Berat Badan (kg)", min_value=30.0, max_value=200.0, value=70.0, step=0.5)
+    height = st.number_input("📏 Tinggi Badan (cm)", min_value=100, max_value=300, value=165)
+    weight = st.number_input("⚖️ Berat Badan (kg)", min_value=30.0, max_value=250.0, value=70.0, step=0.5)
     ap_hi = st.number_input("💉 Tekanan Darah Sistolik", min_value=60, max_value=240, value=120)
     ap_lo = st.number_input("💉 Tekanan Darah Diastolik", min_value=40, max_value=160, value=80)
 
